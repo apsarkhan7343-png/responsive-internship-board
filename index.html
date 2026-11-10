@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Explore internship opportunities across different domains.">
+
+    <title>InternHub | Find Your Internship</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Step 5.1: Skip Navigation Link -->
+    <a href="#internships" class="skip-link">
+        Skip to internships
+    </a>
+
+    <!-- Header Section -->
+    <header>
+        <nav class="navbar" aria-label="Main navigation">
+
+            <h2>InternHub</h2>
+
+            <a href="#internships">
+                Explore Internships
+            </a>
+
+        </nav>
+    </header>
+
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero">
+
+            <h1>Find Your Dream Internship</h1>
+
+            <p>
+                Explore opportunities, develop skills
+                and build your career.
+            </p>
+
+        </section>
+
+
+        <!-- Search and Filter Section -->
+        <section class="search-section"
+            aria-label="Search internships">
+
+            <label for="searchInput">
+                Search internships
+            </label>
+
+            <input
+                type="search"
+                id="searchInput"
+                placeholder="Search by internship title..."
+            >
+
+
+            <label for="domainFilter">
+                Choose domain
+            </label>
+
+            <select id="domainFilter">
+
+                <option value="all">All Domains</option>
+
+                <option value="Web Development">
+                    Web Development
+                </option>
+
+                <option value="Java">
+                    Java
+                </option>
+
+                <option value="Python">
+                    Python
+                </option>
+
+                <option value="AI/ML">
+                    AI/ML
+                </option>
+
+            </select>
+
+        </section>
+
+
+        <!-- Internship Listing Section -->
+        <section id="internships">
+
+            <h2>Available Internships</h2>
+
+            <!-- Step 5.2: Result Count -->
+            <p id="resultCount"
+                role="status"
+                aria-live="polite">
+
+                Loading internships...
+
+            </p>
+
+
+            <!-- Internship Cards -->
+            <div
+                id="internshipContainer"
+                class="internship-grid"
+                aria-label="Internship listings">
+
+                <!-- JavaScript displays internship cards here -->
+
+            </div>
+
+
+            <!-- Empty State -->
+            <p
+                id="emptyMessage"
+                role="status"
+                hidden>
+
+                No internships found.
+                Try another search or domain.
+
+            </p>
+
+
+            <!-- Error State -->
+            <p
+                id="errorMessage"
+                role="alert"
+                hidden>
+
+                Unable to load internships.
+                Please try again later.
+
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer Section -->
+    <footer>
+
+        <p>
+            © 2026 InternHub.
+            Built for learning and career growth.
+        </p>
+
+    </footer>
+
+</body>
+
+</html>

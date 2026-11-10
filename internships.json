@@ -1,0 +1,51 @@
+
+[
+    {
+        "id": 1,
+        "title": "Frontend Developer Intern",
+        "company": "Tech Solutions",
+        "domain": "Web Development",
+        "duration": "2 Months",
+        "location": "Remote"
+    },
+    {
+        "id": 2,
+        "title": "Java Developer Intern",
+        "company": "Code Academy",
+        "domain": "Java",
+        "duration": "3 Months",
+        "location": "Remote"
+    },
+    {
+        "id": 3,
+        "title": "Python Developer Intern",
+        "company": "Innovate Labs",
+        "domain": "Python",
+        "duration": "2 Months",
+        "location": "Coimbatore"
+    },
+    {
+        "id": 4,
+        "title": "AI/ML Intern",
+        "company": "Future Tech",
+        "domain": "AI/ML",
+        "duration": "3 Months",
+        "location": "Remote"
+    },
+    {
+        "id": 5,
+        "title": "Full Stack Developer Intern",
+        "company": "Digital Works",
+        "domain": "Web Development",
+        "duration": "2 Months",
+        "location": "Chennai"
+    },
+    {
+        "id": 6,
+        "title": "Java Backend Intern",
+        "company": "Smart Coders",
+        "domain": "Java",
+        "duration": "1 Month",
+        "location": "Remote"
+    }
+]
